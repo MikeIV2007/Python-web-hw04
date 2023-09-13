@@ -1,0 +1,19 @@
+poetry init
+poetry install
+poetry shell
+copy code from app_post03_threads_5000.py to my_app.py
+start my_app.py
+import jinja to the poetry venv: poetry add jinja2
+strt my_app: py application/my_app.py 
+netstat -ano | findstr :8080
+taskkill /F /PID 12345
+poetry export --without-hashes --format=requirements.txt > requirements.txt
+
+docker build . -t mykhailoivanov/python-web-hw04-image
+host port 80
+
+host path: STORAGE_HW04 (look i browther)
+
+container path: /app/front-init/storage
+
+to avoid loading .venv - creat file .dockerignor
